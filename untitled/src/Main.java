@@ -15,10 +15,8 @@ public class Main {
         c2.attack = 10;
         c2.armor = 2;
 
-
         c1.takeDamage(c2);
-
-
+        
         System.out.println("Darius após tomar dano de Fiora " + c1.life);
     }
 }
